@@ -1,0 +1,62 @@
+head {
+	width: 100%;
+	height: 100%;
+}
+body {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to right, #b301af, #a9eeef);
+	padding: 20px;
+}
+.content {
+	width: 500px;
+	font-family: "Caveat";
+	padding: 10px;
+	background-color: white;
+	user-select: none;
+	box-shadow: -4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+}
+.title {
+	text-align: center;
+	font-size: 52px;
+}
+.inputField {
+	display: flex;
+	justify-content: center;
+}
+.inputField input {
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+	padding: 0 5px;
+	font-size: 25px;
+}
+.inputField button {
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	outline: none;
+	background-color: transparent;
+}
+.inputField button img {
+	pointer-events: none;
+	width: 35px;
+	height: 35px;
+}
+.groceryList {
+	padding: 0;
+}
+.groceryList li {
+	font-size: 32px;
+	list-style-type: none;
+	padding: 5px;
+	white-space: pre-line;
+	word-break: break-word;
+	word-wrap: break-word;
+}
+@font-face {
+	font-family: "Caveat";
+	src: url('../fonts/Caveat-VariableFont_wght.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
