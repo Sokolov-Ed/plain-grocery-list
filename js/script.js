@@ -1,7 +1,7 @@
-let groceryList = document.getElementsByClassName('groceryList')[0];
-let addItem = document.getElementById('addItem');
+let groceryList = document.getElementsByClassName('grocery_list')[0];
+let addItem = document.getElementById('add_item');
 let item = document.getElementById('item');
-let clearList = document.getElementById('clearList');
+let clearList = document.getElementById('clear_list');
 
 addItem.addEventListener('click', e => {
 	if (item.value && item.value.trim() !== '') {

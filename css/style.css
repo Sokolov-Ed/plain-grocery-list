@@ -20,33 +20,33 @@ body {
 	text-align: center;
 	font-size: 52px;
 }
-.inputField {
+.input_field {
 	display: flex;
 	justify-content: center;
 }
-.inputField input {
+.input_field input {
 	border: none;
 	outline: none;
 	border-bottom: 2px solid black;
 	padding: 0 5px;
 	font-size: 25px;
 }
-.inputField button {
+.input_field button {
 	margin: 10px;
 	border: 2px solid black;
 	border-radius: 10px;
 	outline: none;
 	background-color: transparent;
 }
-.inputField button img {
+.input_field button img {
 	pointer-events: none;
 	width: 35px;
 	height: 35px;
 }
-.groceryList {
+.grocery_list {
 	padding: 0;
 }
-.groceryList li {
+.grocery_list li {
 	font-size: 32px;
 	list-style-type: none;
 	padding: 5px;
